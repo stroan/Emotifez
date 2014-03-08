@@ -15,8 +15,24 @@ local.properties
 .classpath
 .settings/
 .loadpath
-/Temp
-/Library/*
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
 
 # External tool builders
 .externalToolBuilders/
