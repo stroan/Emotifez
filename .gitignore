@@ -16,6 +16,7 @@ local.properties
 .settings/
 .loadpath
 /Temp
+/Library/*
 
 # External tool builders
 .externalToolBuilders/
@@ -214,3 +215,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+Library/assetDatabase3
+Library/guidmapper
+Library/metadata/90/9009ccf2407bd894db2f286b7807f276
+*.csproj
