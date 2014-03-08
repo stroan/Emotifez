@@ -5,6 +5,7 @@ public class Character2Dmovement : MonoBehaviour
 {
 	public float speed = 1.0f;
 	public bool canJump = true;
+	public float jumpPower = 225.0f;
 	
 	void Start()		
 	{	
@@ -29,12 +30,12 @@ public class Character2Dmovement : MonoBehaviour
 	void Update () 
 	{
 		transform.position += transform.right * Input.GetAxis ("Horizontal") * speed * Time.deltaTime;
-		transform.position += transform.up * Input.GetAxis ("Vertical") * speed * Time.deltaTime;
 
-		if (Input.GetKeyDown (KeyCode.Space) && canJump == true)
+		if (Input.GetKeyDown (KeyCode.Space) /*&& canJump == true*/)
 		{
-			rigidbody.AddForce (0, 225, 0);	
+			rigidbody2D.AddForce(transform.up * jumpPower);
 			canJump = false;
+			Debug.Log ("Space pressed");
 		}
 	}
 }
