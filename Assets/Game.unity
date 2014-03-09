@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 23718115}
   - 212: {fileID: 23718116}
+  - 61: {fileID: 23718117}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -124,6 +125,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &23718117
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23718114}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &52526250
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,6 +145,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 52526251}
   - 212: {fileID: 52526252}
+  - 61: {fileID: 52526253}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -174,6 +187,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &52526253
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 52526250}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &102377420
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +300,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 289732622}
   - 212: {fileID: 289732621}
+  - 61: {fileID: 289732623}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -317,6 +342,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &289732623
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 289732620}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &316879643
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +362,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 316879645}
   - 212: {fileID: 316879644}
+  - 61: {fileID: 316879646}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -367,6 +404,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &316879646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316879643}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &390622919
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +456,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 466398450}
   - 212: {fileID: 466398449}
+  - 61: {fileID: 466398451}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -449,6 +498,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &466398451
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 466398448}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &469331119
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,6 +518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 469331121}
   - 212: {fileID: 469331120}
+  - 61: {fileID: 469331122}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -499,6 +560,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &469331122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 469331119}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &497209175
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +580,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 497209176}
   - 212: {fileID: 497209177}
+  - 61: {fileID: 497209178}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -549,6 +622,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &497209178
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 497209175}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &742859588
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +642,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 742859589}
   - 212: {fileID: 742859590}
+  - 61: {fileID: 742859591}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -599,6 +684,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &742859591
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742859588}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1006568054
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +704,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1006568056}
   - 212: {fileID: 1006568055}
+  - 61: {fileID: 1006568057}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -649,6 +746,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &1006568057
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1006568054}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1264603957
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +766,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1264603958}
   - 212: {fileID: 1264603959}
+  - 61: {fileID: 1264603960}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -699,6 +808,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1264603960
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264603957}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1336367035
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +828,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1336367036}
   - 212: {fileID: 1336367037}
+  - 61: {fileID: 1336367038}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -749,6 +870,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: eb6cab3f1bfc4ab479dc6bb1f545777c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1336367038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1336367035}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1418911277
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +922,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1472929475}
   - 212: {fileID: 1472929476}
+  - 61: {fileID: 1472929477}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -831,6 +964,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 1903bcc946038604eb931419e71860e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1472929477
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472929474}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1495835640
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +984,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1495835641}
   - 212: {fileID: 1495835642}
+  - 61: {fileID: 1495835643}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -881,6 +1026,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 5295413aaec48bd49ba45a1542e7f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1495835643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495835640}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1537271667
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +1077,13 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1582366529}
+  - 50: {fileID: 1582366531}
+  - 61: {fileID: 1582366532}
+  - 58: {fileID: 1582366535}
   - 212: {fileID: 1582366528}
+  - 114: {fileID: 1582366530}
+  - 114: {fileID: 1582366533}
+  - 114: {fileID: 1582366534}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -959,10 +1121,89 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1582366527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.57524085, y: .800711334, z: 0}
+  m_LocalPosition: {x: .0663532019, y: 1.84871161, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1582366530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45306633747d6d34d8798cbc02941122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  canJump: 1
+  jumpPower: 225
+--- !u!50 &1582366531
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!61 &1582366532
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .660000026, y: .720000029}
+  m_Center: {x: 0, y: .109999999}
+--- !u!114 &1582366533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76b8f83e6e6f3b4f991b1a1e687700c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  defaultSpeed: 2
+  maxSpeed: 4
+  canJump: 1
+  jumpPower: 225
+--- !u!114 &1582366534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0a3ba9f932ba44a916628d13b57f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 225
+--- !u!58 &1582366535
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1582366527}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .330000013
+  m_Center: {x: 0, y: -.109999999}
 --- !u!1 &1588070055
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1213,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1588070056}
   - 212: {fileID: 1588070057}
+  - 61: {fileID: 1588070058}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -1013,6 +1255,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 1903bcc946038604eb931419e71860e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1588070058
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588070055}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1777659547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1275,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1777659549}
   - 212: {fileID: 1777659548}
+  - 61: {fileID: 1777659550}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -1063,6 +1317,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 390622920}
+--- !u!61 &1777659550
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777659547}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1931534676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1337,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1931534678}
   - 212: {fileID: 1931534677}
+  - 61: {fileID: 1931534679}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -1113,6 +1379,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1537271668}
+--- !u!61 &1931534679
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1931534676}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1966572506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,6 +1399,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1966572507}
   - 212: {fileID: 1966572508}
+  - 61: {fileID: 1966572509}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -1163,6 +1441,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: eb6cab3f1bfc4ab479dc6bb1f545777c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &1966572509
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966572506}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &2042863159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,6 +1461,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2042863161}
   - 212: {fileID: 2042863160}
+  - 61: {fileID: 2042863162}
   m_Layer: 0
   m_Name: grassHalfMid
   m_TagString: Untagged
@@ -1213,3 +1503,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1418911278}
+--- !u!61 &2042863162
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2042863159}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .699999988, y: .699999988}
+  m_Center: {x: 0, y: 0}
